@@ -56,17 +56,12 @@ footer a {
 /* ======= RESPONSIVENESS - MEDIA QUERIES - (MEDIUM DEVICES) ======= */
 
 @media screen and (max-width: 1024px) {
-    footer {
-        width: var(--container-width-md);
-    }
+    
 }
 
 /* ======= RESPONSIVENESS - MEDIA QUERIES - (SMALL DEVICES) ======= */
 
 @media screen and (max-width: 600px) {
-    footer {
-        width: var(--container-width-ms);
-    }
     .permalinks {
         flex-direction: column;
         gap: 1.5rem;

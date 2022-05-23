@@ -66,20 +66,36 @@ header {
 
 @media screen and (max-width: 1024px) {
     header {
-        height: 155vh;
         width: var(--container-width-md);
+        padding-top: 3rem; 
+        margin: 4rem; 
     }
+
+    .me {
+        width: 12rem;
+        height: 25rem;
+        margin-top: 4rem;
+        left: calc(50% - 6rem);
+    }
+  
 }
 
 /* ======= RESPONSIVENESS - MEDIA QUERIES - (SMALL DEVICES) ======= */
 
 @media screen and (max-width: 600px) {
     header {
-        height: 165vh;
+        height: 95vh;
         width: var(--container-width-ms);
     }
 
     .header_socials, .scroll_down {
         display: none;
+    }
+
+    .me {
+        width: 10rem;
+        height: 15rem;
+        margin-top: 3.5rem;
+        left: calc(50% - 5rem);
     }
 }

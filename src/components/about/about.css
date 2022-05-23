@@ -3,6 +3,7 @@
     grid-template-columns: 25% 60%;
     gap: 10%;
     margin-left: 3rem;
+    padding: 2rem;
 }
 
 .about_me {
