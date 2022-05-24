@@ -1,5 +1,9 @@
 # WELCOME TO MY PORTFOLIO
 
+## Live Code for Laptop
+
+Link: https://daiana-eger-michels-portfolio.netlify.app/
+
 ## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
