@@ -4,7 +4,6 @@ footer {
     text-align: center;
     font-size: 0.9rem;
     margin-top: 7rem;
-    width: var(--container-width-lg);
 }
 
 footer a {
@@ -53,11 +52,6 @@ footer a {
     color: var(--color-bg);
 }
 
-/* ======= RESPONSIVENESS - MEDIA QUERIES - (MEDIUM DEVICES) ======= */
-
-@media screen and (max-width: 1024px) {
-    
-}
 
 /* ======= RESPONSIVENESS - MEDIA QUERIES - (SMALL DEVICES) ======= */
 
@@ -69,5 +63,9 @@ footer a {
 
     .footer__socials {
         margin-bottom: 2.6rem;
+    }
+
+    footer{
+        width: 110%;
     }
 }

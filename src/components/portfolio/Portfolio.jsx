@@ -27,7 +27,7 @@ const Portfolio = () => {
     {
       id: 3,
       image: IMG4,
-      title: 'Conversor de Temperatura',
+      title: 'Temperature Converter',
       github: 'https://github.com/DaianaEgerMichels/ConversorDeTemperatura',
       netlify: 'https://conversor-de-temperatura-js.netlify.app/'
     }
@@ -41,7 +41,7 @@ const Portfolio = () => {
 
       <div className="container portfolio__container">
         <article className='portfolio__item'>
-                <div className="portifolio__item-image">
+                <div className="portfolio__item-image">
                   <img src={IMG1} alt='TO DO List'></img>
                 </div>
                 <h3>TO DO List</h3>
@@ -53,7 +53,7 @@ const Portfolio = () => {
           data.map(({id, image, title, github, netlify}) => {
             return (
               <article key={id} className='portfolio__item'>
-                <div className="portifolio__item-image">
+                <div className="portfolio__item-image">
                   <img src={image} alt={title}></img>
                 </div>
                 <h3>{title}</h3>

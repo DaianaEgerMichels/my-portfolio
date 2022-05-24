@@ -1,9 +1,7 @@
 .portfolio__container {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     gap: 2.5rem;
-    justify-items: center;
-    padding: 2rem;
 }
 
 .portfolio__item {
@@ -41,14 +39,7 @@
    .portfolio__container {
        grid-template-columns: 1fr 1fr;
        gap: 1.2rem;
-       margin: 0 auto;
    }
-
-   .portfolio__item {
-    width: 350px;
-    height: 350px;
-    }
-
 }
 
 /* ======= RESPONSIVENESS - MEDIA QUERIES - (SMALL DEVICES) ======= */
@@ -57,10 +48,5 @@
     .portfolio__container {
         grid-template-columns: 1fr;
         gap: 1rem;
-    }
-
-    .portfolio__item {
-        width: 300px;
-        height: 350px;
     }
 }

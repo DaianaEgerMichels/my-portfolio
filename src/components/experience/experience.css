@@ -2,7 +2,6 @@
     display: grid;
     gap: 2rem;
     grid-template-columns: 1fr 1fr;
-    margin: 0 auto;
 }
 
 .experience__container > div {
@@ -11,8 +10,6 @@
     border-radius: 2rem;
     border: 1px solid transparent;
     transition: var(--transition);
-    margin: 0 auto;
-    width: var(--container-width-md);
 }
 
 .experience__container > div:hover {
@@ -39,8 +36,8 @@
 }
 
 .experience__details-icon {
-  margin-top: 6px;
-  color: var(--color-primary);  
+    margin-top: 6px;
+    color: var(--color-primary);  
 }
 
 /* ======= RESPONSIVENESS - MEDIA QUERIES - (MEDIUM DEVICES) ======= */
@@ -52,7 +49,8 @@
 
     .experience__container > div {
         padding: 2rem;
-        width: 100%;
+        width: 80%;
+        margin: 0 auto;
     }
 
     .experience__content {
@@ -70,6 +68,7 @@
 
     .experience__container > div {
         padding: 2rem 1rem;
+        width: 100%;
     }
 
 }

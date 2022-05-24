@@ -1,15 +1,13 @@
 header {
-  height: 130vh;
+  height: 120vh;
   padding-top: 7rem;
   overflow: hidden; 
-  margin: 7rem; 
 }
 
 .header_container {
     text-align: center;
     height: 100%;
     position: relative;
-    margin: 0 auto;
 }
 
 /* ======= CTA ======= */
@@ -53,6 +51,7 @@ header {
 }
  
 /* ======= SCROLL DOWN ======= */
+
 .scroll_down {
     position: absolute;
     right: -2.3rem;
@@ -66,9 +65,7 @@ header {
 
 @media screen and (max-width: 1024px) {
     header {
-        width: var(--container-width-md);
-        padding-top: 3rem; 
-        margin: 4rem; 
+        height: 120vh;
     }
 
     .me {
@@ -77,15 +74,14 @@ header {
         margin-top: 4rem;
         left: calc(50% - 6rem);
     }
-  
+
 }
 
 /* ======= RESPONSIVENESS - MEDIA QUERIES - (SMALL DEVICES) ======= */
 
 @media screen and (max-width: 600px) {
     header {
-        height: 95vh;
-        width: var(--container-width-ms);
+        height: 150vh;
     }
 
     .header_socials, .scroll_down {

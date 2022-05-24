@@ -20,9 +20,9 @@
 
     --transition: all 400ms ease;
 
-    --container-width-lg: 100%;
+    --container-width-lg: 80%;
     --container-width-md: 85%;
-    --container-width-ms: 80%;
+    --container-width-ms: 90%;
 }
 
 html {
@@ -45,7 +45,8 @@ body {
 
 .container {
     width: var(--container-width-lg);
-    
+    margin: 0 auto;
+    /*adicionou isso ^^^*/
 }
 
 h1, h2, h3, h4, h5 {

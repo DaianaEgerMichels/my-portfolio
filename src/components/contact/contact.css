@@ -1,5 +1,5 @@
 .container.contact__container {
-    width: 95%;
+    width: 58%;
     margin: 0 auto;
     display: grid;
     grid-template-columns: 30% 58%;
@@ -37,6 +37,8 @@
     font-size: 0.8rem;
 }
 
+/* ======= FORM ======= */
+
 form {
     display: flex;
     flex-direction: column;
@@ -57,7 +59,6 @@ input, textarea {
 
 @media screen and (max-width: 1024px) {
     .container.contact__container {
-        width: var(--container-width-md);
         grid-template-columns: 1fr;
         gap: 2rem;
     }
