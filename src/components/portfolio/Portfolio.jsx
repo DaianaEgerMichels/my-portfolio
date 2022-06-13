@@ -39,7 +39,7 @@ const Portfolio = () => {
                 </div>
                 <h3>TO DO List</h3>
                 <div className="portfolio__item-cta">
-                  <a href="https://github.com/DaianaEgerMichels/Lista-de-Afazeres---ToDoList" className='btn' target='_blank'>GitHub</a>
+                  <a href="https://github.com/DaianaEgerMichels/Lista-de-Afazeres---ToDoList" className='btn' target='noopener noreferrer'>GitHub</a>
                 </div>
         </article>
         <article className='portfolio__item'>
@@ -48,8 +48,8 @@ const Portfolio = () => {
                 </div>
                 <h3>DEV in Hortifruti</h3>
                 <div className="portfolio__item-cta">
-                  <a href="https://github.com/DEVin-Involves-PariPassu/M3P2-DEVinHortifruti-FrontEnd" className='btn' target='_blank'>FrontEnd</a>
-                  <a href="" className='btn btn-primary' target='_blank'>Backend</a>
+                  <a href="https://github.com/DEVin-Involves-PariPassu/M3P2-DEVinHortifruti-FrontEnd" className='btn' target='noopener noreferrer'>FrontEnd</a>
+                  <a href="https://github.com/DEVin-Involves-PariPassu/M3P2-DEVinHortifruti-BackEnd" className='btn btn-primary' target='noopener noreferrer'>Backend</a>
                 </div>
         </article>
         {
@@ -61,8 +61,8 @@ const Portfolio = () => {
                 </div>
                 <h3>{title}</h3>
                 <div className="portfolio__item-cta">
-                  <a href={github} className='btn' target='_blank'>GitHub</a>
-                  <a href={netlify} className='btn btn-primary' target='_blank'>Live Demo</a>
+                  <a href={github} className='btn' target='noopener noreferrer'>GitHub</a>
+                  <a href={netlify} className='btn btn-primary' target='noopener noreferrer'>Live Demo</a>
                 </div>
               </article>
             )
