@@ -3,7 +3,7 @@ import './portfolio.css'
 import IMG1 from '../../assets/portfolio1.jpg'
 import IMG2 from '../../assets/portfolio2.jpg'
 import IMG3 from '../../assets/portfolio3.png'
-import IMG4 from '../../assets/portfolio4.jpg'
+import IMG4 from '../../assets/portfolio4.png'
 
 //importar imagem do todo list, sgi e book store
 //por no netlify o todo list e o book store
@@ -24,13 +24,6 @@ const Portfolio = () => {
       github: 'https://github.com/DaianaEgerMichels/redux-book-store',
       netlify: 'https://book-store-redux.netlify.app/'
     },
-    {
-      id: 3,
-      image: IMG4,
-      title: 'Temperature Converter',
-      github: 'https://github.com/DaianaEgerMichels/ConversorDeTemperatura',
-      netlify: 'https://conversor-de-temperatura-js.netlify.app/'
-    }
 
   ]
 
@@ -47,6 +40,16 @@ const Portfolio = () => {
                 <h3>TO DO List</h3>
                 <div className="portfolio__item-cta">
                   <a href="https://github.com/DaianaEgerMichels/Lista-de-Afazeres---ToDoList" className='btn' target='_blank'>GitHub</a>
+                </div>
+        </article>
+        <article className='portfolio__item'>
+                <div className="portfolio__item-image">
+                  <img src={IMG4} alt='DEV in Hortifruti'></img>
+                </div>
+                <h3>DEV in Hortifruti</h3>
+                <div className="portfolio__item-cta">
+                  <a href="https://github.com/DEVin-Involves-PariPassu/M3P2-DEVinHortifruti-FrontEnd" className='btn' target='_blank'>FrontEnd</a>
+                  <a href="" className='btn btn-primary' target='_blank'>Backend</a>
                 </div>
         </article>
         {
