@@ -4,9 +4,9 @@ import IMG1 from '../../assets/portfolio1.jpg'
 import IMG2 from '../../assets/portfolio2.jpg'
 import IMG3 from '../../assets/portfolio3.png'
 import IMG4 from '../../assets/portfolio4.png'
+import IMG5 from '../../assets/portfolio5.png'
+import IMG6 from '../../assets/portfolio6.png'
 
-//importar imagem do todo list, sgi e book store
-//por no netlify o todo list e o book store
 
 const Portfolio = () => {
   const data = [
@@ -14,15 +14,41 @@ const Portfolio = () => {
       id: 1,
       image: IMG2,
       title: 'SGI',
-      github: 'https://github.com/DaianaEgerMichels/projeto-02',
-      netlify: 'https://sistema-de-gestao-integrada.netlify.app/'
+      frontend: 'https://github.com/DaianaEgerMichels/projeto-02',
     },
     {
       id: 2,
       image: IMG3,
       title: 'Book Store',
-      github: 'https://github.com/DaianaEgerMichels/redux-book-store',
-      netlify: 'https://book-store-redux.netlify.app/'
+      frontend: 'https://github.com/DaianaEgerMichels/redux-book-store',
+    },
+    {
+      id: 3,
+      image: IMG1,
+      title: 'To Do List',
+      frontend: 'https://github.com/DaianaEgerMichels/Lista-de-Afazeres---ToDoList',
+      backend: 'https://book-store-redux.netlify.app/'
+    },
+    {
+      id: 4,
+      image: IMG4,
+      title: 'DEV in Hortifruti',
+      frontend: 'https://github.com/DEVin-Involves-PariPassu/M3P2-DEVinHortifruti-FrontEnd',
+      backend: 'https://github.com/DEVin-Involves-PariPassu/M3P2-DEVinHortifruti-BackEnd'
+    },
+    {
+      id: 5,
+      image: IMG5,
+      title: 'Controle de Finanças',
+      frontend: 'https://github.com/DaianaEgerMichels/financas-app',
+      backend: 'https://github.com/DaianaEgerMichels/financas-api'
+    },
+    {
+      id: 6,
+      image: IMG6,
+      title: 'Health System',
+      frontend: 'https://github.com/DaianaEgerMichels/HealthcareInstitution-app',
+      backend: 'https://github.com/DaianaEgerMichels/HealthcareInstitution-api'
     },
 
   ]
@@ -33,27 +59,8 @@ const Portfolio = () => {
       <h2>Portfolio</h2>
 
       <div className="container portfolio__container">
-        <article className='portfolio__item'>
-                <div className="portfolio__item-image">
-                  <img src={IMG1} alt='TO DO List'></img>
-                </div>
-                <h3>TO DO List</h3>
-                <div className="portfolio__item-cta">
-                  <a href="https://github.com/DaianaEgerMichels/Lista-de-Afazeres---ToDoList" className='btn' target='noopener noreferrer'>GitHub</a>
-                </div>
-        </article>
-        <article className='portfolio__item'>
-                <div className="portfolio__item-image">
-                  <img src={IMG4} alt='DEV in Hortifruti'></img>
-                </div>
-                <h3>DEV in Hortifruti</h3>
-                <div className="portfolio__item-cta">
-                  <a href="https://github.com/DEVin-Involves-PariPassu/M3P2-DEVinHortifruti-FrontEnd" className='btn' target='noopener noreferrer'>FrontEnd</a>
-                  <a href="https://github.com/DEVin-Involves-PariPassu/M3P2-DEVinHortifruti-BackEnd" className='btn btn-primary' target='noopener noreferrer'>Backend</a>
-                </div>
-        </article>
         {
-          data.map(({id, image, title, github, netlify}) => {
+          data.map(({id, image, title, frontend, backend}) => {
             return (
               <article key={id} className='portfolio__item'>
                 <div className="portfolio__item-image">
@@ -61,8 +68,8 @@ const Portfolio = () => {
                 </div>
                 <h3>{title}</h3>
                 <div className="portfolio__item-cta">
-                  <a href={github} className='btn' target='noopener noreferrer'>GitHub</a>
-                  <a href={netlify} className='btn btn-primary' target='noopener noreferrer'>Live Demo</a>
+                  <a href={frontend} className='btn' target='noopener noreferrer'>Front-end</a>
+                  {backend && <a href={backend} className='btn btn-primary' target='noopener noreferrer'>Back-end</a>}
                 </div>
               </article>
             )

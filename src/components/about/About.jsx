@@ -23,13 +23,13 @@ const About = () => {
           <article className='about_card'>
               <FaLaptopCode className='about_icon'/>
               <h5>Programming Languages</h5>
-              <small>Frontend: JavaScript | Backend: Java - Spring</small>
+              <small>Frontend: React - JavaScript | Backend: Java - Spring Boot</small>
             </article>
 
             <article className='about_card'>
               <FaAward className='about_icon'/>
               <h5>Experience</h5>
-              <small>8+ Months Student DEVinHouse</small>
+              <small>9 Months Student DEVinHouse</small>
             </article>
 
             <article className='about_card'>
