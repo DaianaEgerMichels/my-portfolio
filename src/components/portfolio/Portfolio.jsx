@@ -27,7 +27,6 @@ const Portfolio = () => {
       image: IMG1,
       title: 'To Do List',
       frontend: 'https://github.com/DaianaEgerMichels/Lista-de-Afazeres---ToDoList',
-      backend: 'https://book-store-redux.netlify.app/'
     },
     {
       id: 4,
