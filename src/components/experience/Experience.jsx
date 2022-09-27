@@ -54,6 +54,27 @@ const Experience = () => {
           <article className='experience__details'>
             <BsPatchCheckFill className='experience__details-icon'/>
             <div>
+              <h4>Vue</h4>
+              <small className='text-light'>Basic</small>
+            </div>
+          </article>
+          <article className='experience__details'>
+            <BsPatchCheckFill className='experience__details-icon'/>
+            <div>
+              <h4>NuxtJs</h4>
+              <small className='text-light'>Basic</small>
+            </div>
+          </article>
+          <article className='experience__details'>
+            <BsPatchCheckFill className='experience__details-icon'/>
+            <div>
+              <h4>Tailwind CSS</h4>
+              <small className='text-light'>Basic</small>
+            </div>
+          </article>
+          <article className='experience__details'>
+            <BsPatchCheckFill className='experience__details-icon'/>
+            <div>
               <h4>Bootstrap</h4>
               <small className='text-light'>Basic</small>
             </div>
