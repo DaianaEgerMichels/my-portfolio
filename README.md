@@ -1,8 +1,5 @@
 
 <h1 align="center">WELCOME TO MY PORTFOLIO</h1>
-<p align="center">
- :construction: Project in construction :construction:
-</p>
 
 ## Live Code for Laptop
 
