@@ -4,18 +4,8 @@ import {MdOutlineEmail} from 'react-icons/md'
 import {BsLinkedin} from 'react-icons/bs'
 import {BsWhatsapp} from 'react-icons/bs'
 import {useRef} from 'react'
-import emailjs from 'emailjs-com'
 
 const Contact = () => {
-  const form = useRef();
-
-  const sendEmail = (e) => {
-    e.preventDefault();
-
-    emailjs.sendForm('service_zewtrgm', 'template_5wgo5ao', form.current, '4hz4DbNzDTBVNb1Rc');
-
-    e.target.reset();
-  };
 
   return (
     <section id='contact'>
@@ -42,13 +32,6 @@ const Contact = () => {
             <a href='https://api.whatsapp.com/send?phone=5548998136262' target='_blank'>Send a message</a>
           </article>
         </div>
-
-        <form ref={form} onSubmit={sendEmail}>
-          <input type='text' name='name' placeholder='Your Full Name' required/>
-          <input type='email' name='email' placeholder='Your Email' required/>
-          <textarea name='message' rows='7' placeholder='Your Message' required></textarea>
-          <button type='submit' className='btn btn-primary'>Send Message</button>
-        </form>
       </div>
     </section>
   )
