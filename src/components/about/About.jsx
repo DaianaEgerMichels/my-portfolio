@@ -23,7 +23,7 @@ const About = () => {
             <article className="about_card">
               <FaLaptopCode className="about_icon" />
               <h5>Programming Languages</h5>
-              <small>Frontend: React - Vue - JavaScript</small>
+              <small>Frontend: React - Vue - Angular - JavaScript</small>
               <br />
               <small>Backend: Java - Spring Boot</small>
             </article>
@@ -31,7 +31,7 @@ const About = () => {
             <article className="about_card">
               <FaAward className="about_icon" />
               <h5>Experience</h5>
-              <small>Jr Development Analyst at Pixeon</small>
+              <small>1+ year Jr Development Analyst at Pixeon</small>
               <br />
               <small>9 Months Student DEVinHouse</small>
             </article>
@@ -47,14 +47,25 @@ const About = () => {
             Hi, my name is Daiana. I am 25 years old, currently working as a
             Junior Development Analyst at Pixeon.
           </p>
-          <p>I am a person who is always looking for new knowledge.</p>
           <p>
-            About my personality, my essence lies in knowing how to relate to
-            people, having respect for others and always being willing to help.
+          Among the knowledge and skills that I have developed and consolidated through my professional activities are:
+          <ul>
+            <li>- Agile methodologies: Kanban and Scrum</li>
+            <li>- Code versioning using Git, GitHub, GitLab and Bitbucket</li>
+            <li>- Frontend: HTML, CSS, Tailwind, JavaScript, React, Angular and Vue (NuxtJs)</li>
+            <li>- Backend: Maintenance and development of microservices in Java (with Spring Boot)</li>
+            <li>- Relational Database: SQL Server and MySQL</li>
+            <li>- Unitary tests</li>
+            <li>- Basics container orchestration with Docker and Kubernetes</li>
+            <li>- Basic notions of messaging through queues (RabbitMQ)</li>
+            <li>- Observability and log query using Grafana</li>
+          </ul>
           </p>
           <p>
-            With a light soul and increasingly enchanted by the programming, I
-            continue to learn a little more about this vast universe every day.
+            In addition to the aforementioned skills, 
+            I am constantly looking for new knowledge and technical improvements, 
+            I am currently participating in an Angular and Java bootcamp, by DIO, 
+            and a study trail on Python on the Alura platform.
           </p>
         </div>
       </div>
