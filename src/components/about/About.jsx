@@ -44,8 +44,8 @@ const About = () => {
           </div>
           <br/>
           <p>
-            Hi, my name is Daiana. I am 25 years old, currently working as a
-            Junior Development Analyst at Pixeon.
+            Hi, my name is Daiana. I am 26 years old, currently working as a
+            Full Stack Developer at Pixeon.
           </p>
           <p>
           Among the knowledge and skills that I have developed and consolidated through my professional activities are:
