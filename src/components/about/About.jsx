@@ -23,7 +23,7 @@ const About = () => {
             <article className="about_card">
               <FaLaptopCode className="about_icon" />
               <h5>Programming Languages</h5>
-              <small>Frontend: React - Vue - Angular - JavaScript</small>
+              <small>Frontend: Vue - Angular - React -  JavaScript - TypeScript</small>
               <br />
               <small>Backend: Java - Spring Boot</small>
             </article>
@@ -31,9 +31,9 @@ const About = () => {
             <article className="about_card">
               <FaAward className="about_icon" />
               <h5>Experience</h5>
-              <small>1+ year Jr Development Analyst at Pixeon</small>
+              <small>1+ year Full Stack Development at Pixeon</small>
               <br />
-              <small>9 Months Student DEVinHouse</small>
+              <small>Technical graduation: DEV in House - SENAI 2022</small>
             </article>
 
             <article className="about_card">
@@ -52,20 +52,20 @@ const About = () => {
           <ul>
             <li>- Agile methodologies: Kanban and Scrum</li>
             <li>- Code versioning using Git, GitHub, GitLab and Bitbucket</li>
-            <li>- Frontend: HTML, CSS, Tailwind, JavaScript, React, Angular and Vue (NuxtJs)</li>
-            <li>- Backend: Maintenance and development of microservices in Java (with Spring Boot)</li>
+            <li>- Frontend: HTML, CSS, Tailwind, JavaScript, TypeScript, React, Angular and Vue</li>
+            <li>- Backend: Maintenance and development of microservices in Java (with Spring Boot), NodeJs (with NestJs)</li>
             <li>- Relational Database: SQL Server and MySQL</li>
-            <li>- Unitary tests</li>
+            <li>- Unitary tests (frontend and backend)</li>
             <li>- Basics container orchestration with Docker and Kubernetes</li>
             <li>- Basic notions of messaging through queues (RabbitMQ)</li>
-            <li>- Observability and log query using Grafana</li>
+            <li>- Observability and log query using Grafana and Prometheus</li>
+            <li>- Documentation with Swagger</li>
           </ul>
           </p>
           <p>
-            In addition to the aforementioned skills, 
-            I am constantly looking for new knowledge and technical improvements, 
-            I am currently participating in an Angular and Java bootcamp, by DIO, 
-            and a study trail on Python on the Alura platform.
+            In addition to the skills mentioned,
+            I am constantly looking for new knowledge and technical improvements,
+            participating in DIO bootcamps and taking specific training on the Alura platform.
           </p>
         </div>
       </div>
