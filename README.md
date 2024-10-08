@@ -4,5 +4,3 @@
 ## Live Code for Laptop
 
 Link: https://daiana-eger-michels-portfolio.netlify.app/
-
-
