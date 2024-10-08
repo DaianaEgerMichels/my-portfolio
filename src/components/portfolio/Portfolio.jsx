@@ -13,44 +13,44 @@ const Portfolio = () => {
     {
       id: 1,
       image: IMG2,
-      title: 'Task Tracker - Vue 3',
-      frontend: 'https://github.com/DaianaEgerMichels/task-tracker',
+      title: "Task Tracker - Vue 3",
+      frontend: "https://github.com/DaianaEgerMichels/task-tracker",
     },
     {
       id: 2,
       image: IMG1,
-      title: 'Personal Blog - Angular',
-      frontend: 'https://github.com/DaianaEgerMichels/angular-blog',
+      title: "Personal Blog - Angular",
+      frontend: "https://github.com/DaianaEgerMichels/angular-blog",
     },
     {
       id: 3,
       image: IMG3,
-      title: 'Cooking Up - Vue 3',
-      frontend: 'https://github.com/DaianaEgerMichels/cookin-up-vue',
+      title: "Cooking Up - Vue 3",
+      frontend: "https://github.com/DaianaEgerMichels/cookin-up-vue",
     },
     {
       id: 4,
-      image: IMG4,
-      title: 'DEV in Hortifruti - React & Java',
-      frontend: 'https://github.com/DEVin-Involves-PariPassu/M3P2-DEVinHortifruti-FrontEnd',
-      backend: 'https://github.com/DEVin-Involves-PariPassu/M3P2-DEVinHortifruti-BackEnd'
+      image: IMG5,
+      title: "Finance Control - React & Java",
+      frontend: "https://github.com/DaianaEgerMichels/financas-app",
+      backend: "https://github.com/DaianaEgerMichels/financas-api",
     },
     {
       id: 5,
-      image: IMG5,
-      title: 'Finance Control - React & Java',
-      frontend: 'https://github.com/DaianaEgerMichels/financas-app',
-      backend: 'https://github.com/DaianaEgerMichels/financas-api'
+      image: IMG6,
+      title: "Health System - React & Java",
+      frontend:
+        "https://github.com/DaianaEgerMichels/HealthcareInstitution-app",
+      backend: "https://github.com/DaianaEgerMichels/HealthcareInstitution-api",
     },
     {
       id: 6,
-      image: IMG6,
-      title: 'Health System - React & Java',
-      frontend: 'https://github.com/DaianaEgerMichels/HealthcareInstitution-app',
-      backend: 'https://github.com/DaianaEgerMichels/HealthcareInstitution-api'
+      image: IMG4,
+      title: "QR Code Generator - HTML, CSS & JavaScript",
+      frontend:
+        "https://github.com/DaianaEgerMichels/qr-code-generator/tree/main",
     },
-
-  ]
+  ];
 
   return (
     <section id='portfolio'>
